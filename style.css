@@ -1,9 +1,8 @@
-body{
- background-color: #87CEFA;
- font-size: large;
- font-family: math, Arial;
+body{ 
+    background-color: #24b7cf;
+    font-size: large;
+    font-family: math, Arial;"
 }
-
 li{
  display: inline-block;
  width: 24%;
