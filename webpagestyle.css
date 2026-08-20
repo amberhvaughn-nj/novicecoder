@@ -1,0 +1,14 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Arial, Times;
+  font-size: 115%;
+  background-color: #0f90e6;
+}
+
+li{
+ display: inline-block;
+    width: 24%;
+    text-align: center;
+    height: 95px;
+    background: lightskyblue;
+    line-height: 95px;
+}
