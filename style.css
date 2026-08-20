@@ -1,14 +1,14 @@
 body{
- background-color: #87cefa;
+ background-color: #87CEFA;
  font-size: large;
- font-family: math, Times, Arial;
+ font-family: math, Arial;
 }
 
 li{
  display: inline-block;
-    width: 24%;
-    text-align: center;
-    height: 95px;
-    background: lightskyblue;
-    line-height: 95px;
+ width: 24%;
+ text-align: center;
+ height: 95px;
+ background: lightskyblue;
+ line-height: 95px;
 }
