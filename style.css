@@ -1,6 +1,8 @@
-background-color: #87cefa;
-font-size: large;
-font-family: math, Times, Arial;
+body{
+ background-color: #87cefa;
+ font-size: large;
+ font-family: math, Times, Arial;
+}
 
 li{
  display: inline-block;
