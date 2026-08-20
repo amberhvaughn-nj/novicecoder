@@ -3,11 +3,3 @@ body{
     font-size: large;
     font-family: math, Arial;"
 }
-li{
- display: inline-block;
- width: 24%;
- text-align: center;
- height: 95px;
- background: lightskyblue;
- line-height: 95px;
-}
