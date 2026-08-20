@@ -1,2 +1,0 @@
-#novicecoder
-first page
