@@ -1,8 +1,6 @@
-body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Arial, Times;
-  font-size: 115%;
-  background-color: #0f90e6;
-}
+    background-color: lightsteelblue;
+    font-family: Arial, SANS-SERIF, Verdana, Times;
+    font-size: large;
 
 li{
  display: inline-block;
