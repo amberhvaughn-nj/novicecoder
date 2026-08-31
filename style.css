@@ -1,5 +1,21 @@
 body{ 
-    background-color: #24b7cf;
-    font-size: large;
-    font-family: math, Arial;"
+    background-color: #5fbfeb;
+    font-size: 20px;
+    font-family: math, Arial;
 }
+
+nav a{ 
+    text-decoration: none;
+    background-color:#5fbfeb;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li{
+ list-style-type: none;
+
+}   
