@@ -19,3 +19,7 @@ li{
  list-style-type: none;
 
 }   
+.current{
+    text-transform: capitalize;
+    border-bottom: 2px solid black;
+}
