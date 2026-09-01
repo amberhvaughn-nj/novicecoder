@@ -17,10 +17,9 @@ ul{
 
 li{
  list-style-type: none;
-
 }   
 
 .current{
     text-transform: capitalize;
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid #0000FF;
 }
