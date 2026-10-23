@@ -1,25 +1,80 @@
-body{ 
+
+body {
     background-color: #5fbfeb;
     font-size: 20px;
     font-family: math, Arial;
 }
 
-nav a{ 
+/* Navigation */
+nav a {
     text-decoration: none;
-    background-color:#5fbfeb;
+    background-color: #5fbfeb;
 }
 
-ul{
+
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+    margin: 0;
 }
 
-li{
- list-style-type: none;
-}   
 
-.current{
+li {
+    list-style-type: none;
+}
+
+.current {
     text-transform: capitalize;
     border-bottom: 4px solid #0000FF;
 }
+
+/* Skip to Main Content */
+a[href="#main"] {
+    position: absolute;
+    left: -9999px;
+}
+
+a[href="#main"]:focus {
+    left: 10px;
+    top: 10px;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Image Box Model */
+img {
+    border: 3px solid #000080;
+    padding: 5px;
+    border-radius: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* CSS Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Navigation Hover */
+nav a:hover {
+    background-color: #000080;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* nth-child Selector */
+
+.grid img:nth-child(even) {
+    border-radius: 50px;
+    border-color: #070574;
+}
+

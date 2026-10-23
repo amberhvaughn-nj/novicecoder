@@ -1,54 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Website as a Novice Coder</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body data-new-gr-c-s-check-loaded="14.1321.0" data-gr-ext-installed="" style="
-    background-color: #45b3f3;
-    font-size: 22px;
-    font-family: math;
-    font-style:italic">
+<body>
 
-<main>
-     <nav>
-        <style>
-            nav{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                list-style-type: none;
-                padding: 0px;
-                margin: 0px;
-            }
-        </style>
-     <li>     
-            <li class="current"><a href="index.html" style="text-decoration: underline">Home</a></li>
-            <li><a href="marketingandpr.html"style="text-decoration: none">Marketing and PR</a></li>
-            <li><a href="pathtotoday.html"style="text-decoration: none">Path to Today</a></li>
-    </li>   
+    <!-- Skip to Main Content -->
+    <a href="#main">Skip to Main Content</a>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li class="current">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="marketingandpr.html">Marketing and PR</a>
+            </li>
+            <li>
+                <a href="pathtotoday.html">Path to Today</a>
+            </li>
+        </ul>
     </nav>
-        <h1 style="color:#070574;text-align: center;" line-height="50%">My First Website as a Novice Coder</h1>        
-        <h2 style="color:#070574;">About Me</h2>
-        <p>Hello everyone. My name is Amber Vaughn, and this is my first website that I am creating as a novice web developer and coder. I currently have a background in marketing, hospitality, and office administration. </p>
-        
-        <h2 style="color:#070574;">My Goals</h2>
+
+    <main id="main">
+
+        <h1>My First Website as a Novice Coder</h1>
+
+        <h2>About Me</h2>
+        <p>
+            Hello everyone. My name is Amber Vaughn,
+            and this is my first website that I am
+            creating as a novice web developer and
+            coder. I currently have a background in
+            marketing, hospitality, and office
+            administration.
+        </p>
+
+        <h2>My Goals</h2>
         <p>My overall goals are to</p>
+
         <ol>
-            <li>Help entrepreneurs create websites related to their endeavors</li>
-            <li>Assist them in updating and maintaining their websites</li>
-            <li>Merge my love of marketing and web development into a career</li>
+            <li>
+                Help entrepreneurs create websites
+                related to their endeavors
+            </li>
+            <li>
+                Assist them in updating and maintaining
+                their websites
+            </li>
+            <li>
+                Merge my love of marketing and web
+                development into a career
+            </li>
         </ol>
-    
-        
-        <div>
-            <h2 style="color:#070574;">Images</h2>
-            <img src="workingonalaptop.jpg" alt="workingonalaptop">
-            <img src="jumpingforjoy.jpg" alt="jumpingforjoy">
-            <img src="thinkingofanidea.jpg" alt="thinkingofanidea">
+
+        <h2>Images</h2>
+
+        <!-- CSS Grid Image Gallery -->
+        <div class="grid">
+            <img src="workingonalaptop.jpg"
+                 alt="Working on a laptop">
+
+            <img src="jumpingforjoy.jpg"
+                 alt="Jumping for joy">
+
+            <img src="thinkingofanidea.jpg"
+                 alt="Thinking of an idea">
+
+            <!-- Add your fourth image here -->
+
+            <!-- Add your fifth image here -->
         </div>
+
+    </main>
 
     <footer>
         <p>Copyright Amber Vaughn</p>
     </footer>
+
+</body>
+</html>
