@@ -52,15 +52,15 @@ img {
     border: 3px solid #000080;
     padding: 5px;
     border-radius: 15px;
-    max-width: 20%;
+    max-width: 50%;
     box-sizing: border-box;
 }
 
 /* CSS Grid */
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    grid-template-columns: repeat(3, 4fr);
+    gap: 10px;
 }
 
 /* Navigation Hover */
