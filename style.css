@@ -52,7 +52,7 @@ img {
     border: 3px solid #000080;
     padding: 5px;
     border-radius: 15px;
-    max-width: 100%;
+    max-width: 20%;
     box-sizing: border-box;
 }
 
@@ -60,7 +60,7 @@ img {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 5px;
 }
 
 /* Navigation Hover */
