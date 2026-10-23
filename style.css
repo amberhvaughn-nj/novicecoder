@@ -78,3 +78,24 @@ nav a:hover {
     border-color: #070574;
 }
 
+
+/* Marketing and PR Image */
+.marketing-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.marketing-image img {
+    width: 60%;
+    height: auto;
+}
+
+h1 {
+    color: #070574;
+    text-align: center;
+}
+
+h2 {
+    color: #070574;
+}
