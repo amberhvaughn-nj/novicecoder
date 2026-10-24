@@ -64,7 +64,7 @@ img {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 4fr);
+    grid-template-columns: repeat(2, 3fr);
     gap: 30px;
 }
 
@@ -89,12 +89,13 @@ nav a:hover {
 .marketing-image {
     display: flex;
     justify-content: center;
+    gap: 10px;
     margin: 20px 0;
 }
 
 
 .marketing-image img {
-    width: 33%;
+    width: 50%;
     height: auto;
 }
 
